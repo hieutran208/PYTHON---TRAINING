@@ -1,9 +1,20 @@
 {
-    "id": "001",
-    "name": "Hieu",
-    "age": 25,
+    "user": [
+        {
+            "id": 1,
+            "name": "An"
+        },
+        {
+            "id": 2,
+            "name": "Binh"
+        }
+    ],
     "skills": [
         "Python",
         "SQL"
-    ]
+    ],
+    "address": {
+        "city": "Hanoi",
+        "country": "Vietnam"
+    }
 }
