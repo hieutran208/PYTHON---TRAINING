@@ -1,20 +1,16 @@
-{
-    "user": [
-        {
-            "id": 1,
-            "name": "An"
-        },
-        {
-            "id": 2,
-            "name": "Binh"
-        }
-    ],
-    "skills": [
-        "Python",
-        "SQL"
-    ],
-    "address": {
-        "city": "Hanoi",
-        "country": "Vietnam"
+﻿[
+    {
+        "order_id": 1,
+        "customer": "An",
+        "items": [
+            {
+                "product": "A",
+                "price": 100
+            },
+            {
+                "product": "B",
+                "price": 200
+            }
+        ]
     }
-}
+]
