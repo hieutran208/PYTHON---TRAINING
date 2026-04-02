@@ -1,5 +1,6 @@
 from math import *
 from fractions import *
+import pandas
 a = 1.6
 b = 2
 c = 7
@@ -29,3 +30,5 @@ except ErrorAge as e:
     print(f'Lỗi: {e}')
 finally:
     print("Đã hoàn thành bước nhập tuổi")
+
+print(pandas.read_parquet('bank_data.parquet',engine='pyarrow')['Assets ($mil.)'].mean())
