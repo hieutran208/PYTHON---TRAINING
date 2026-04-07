@@ -1,3 +1,3 @@
-**LINK GITHUB PHẦN LEETCODE THỰC HÀNH**
+**LINK GITHUB PHẦN TÀI LIỆU LEETCODE THỰC HÀNH**
 
 https://github.com/haroontrailblazer/LeetCode/tree/main/Pandas
