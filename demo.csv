@@ -1,4 +1,3 @@
-id,name,age
-1,An,20
-2,Bình,25
-3,Thư,24
+,product,quarter_1,quarter_2,quarter_3,quarter_4
+0,Umbrella,417,224,379,611
+1,SleepingBag,800,936,93,875

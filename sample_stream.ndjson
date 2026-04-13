@@ -1,0 +1,7 @@
+{"timestamp":"2024-01-15T10:00:00Z","level":"info","message":"Application started","service":"api"}
+{"timestamp":"2024-01-15T10:00:01Z","level":"info","message":"Database connected","service":"api"}
+{"timestamp":"2024-01-15T10:01:00Z","level":"info","message":"GET /api/users","status":200,"duration_ms":45}
+{"timestamp":"2024-01-15T10:01:15Z","level":"info","message":["Rate limit approaching","POST /api/users"],"status":201,"duration_ms":120}
+{"timestamp":"2024-01-15T10:02:00Z","level":"warn","message":"Rate limit approaching","client":"192.168.1.100"}
+{"timestamp":"2024-01-15T10:02:30Z","level":"error","message":"External API timeout","timeout_ms":5000}
+{"timestamp":"2024-01-15T10:03:00Z","level":["info","error"],"message":"Health check passed","uptime":180}

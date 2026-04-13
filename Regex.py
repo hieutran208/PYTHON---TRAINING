@@ -1,7 +1,7 @@
 import re
 text = "abc123xyz"
 str = "The rain in Spain" 
-search  = re.search(r"\s",str)
+search  = re.search(r"\s",str) # Chú ý: re.search(r"^\s",str) => ^ Nghĩa là bắt đầu bởi
 search_all  = re.findall(r"\s",str)
 print(f'Vị trí khoảng trắng đầu tiên trong chuỗi str là: {search.start()}')
 print(f'Vị trí khoảng trắng cuối cùng trong chuỗi str là: {search.end()}')
